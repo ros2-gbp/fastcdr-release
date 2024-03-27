@@ -294,15 +294,15 @@ tracks:
       :{release_inc} --os-name fedora
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc} --os-name rhel
-    devel_branch: master
+    devel_branch: 2.2.x
     last_release: v1.1.0
     last_version: 1.1.0
     name: fastcdr
-    patches: rolling
+    patches: null
     release_inc: '3'
     release_repo_url: https://github.com/ros2-gbp/fastcdr-release.git
     release_tag: v:{version}
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/eProsima/Fast-CDR.git
-    version: :{ask}
+    version: :{auto}
