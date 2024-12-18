@@ -1,0 +1,13 @@
+Source: ros-rolling-fastcdr
+Section: misc
+Priority: optional
+Maintainer: Miguel Company <miguelcompany@eprosima.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-rolling-ament-cmake <!nocheck>, ros-rolling-ament-cmake-gtest <!nocheck>, ros-rolling-ros-workspace
+Homepage: https://www.eprosima.com/
+Standards-Version: 3.9.2
+
+Package: ros-rolling-fastcdr
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-ros-workspace
+Description: *eProsima Fast CDR* is a C++ serialization library implementing the Common Data Representation (CDR) mechanism defined by the Object Management Group (OMG) consortium.
+ CDR is the serialization mechanism used in DDS for the DDS Interoperability Wire Protocol (DDSI-RTPS).
