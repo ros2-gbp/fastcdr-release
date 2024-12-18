@@ -1,3 +1,26 @@
+## fastcdr (jazzy) - 2.2.6-1
+
+The packages in the `fastcdr` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release -r jazzy -t jazzy fastcdr` on `Wed, 18 Dec 2024 12:01:43 -0000`
+
+The `fastcdr` package was released.
+
+Version of package(s) in repository `fastcdr`:
+
+- upstream repository: https://github.com/eProsima/Fast-CDR.git
+- release repository: https://github.com/ros2-gbp/fastcdr-release.git
+- rosdistro version: `2.2.4-1`
+- old version: `2.2.4-1`
+- new version: `2.2.6-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## fastcdr (rolling) - 2.2.6-1
 
 The packages in the `fastcdr` repository were released into the `rolling` distro by running `/usr/bin/bloom-release -r rolling -t rolling fastcdr` on `Wed, 18 Dec 2024 11:58:13 -0000`
