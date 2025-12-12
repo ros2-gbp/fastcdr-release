@@ -23,7 +23,7 @@ The latest version and the release notes can be found [here](https://github.com/
 ### Public API Declaration [1.iii]
 
 The public API is documented using [Doxygen](https://www.doxygen.nl/index.html) and can be build using the CMake option `BUILD_DOCUMENTATION` set to `ON`.
-The API reference generated can also be found in [eProsima/all-docs](https://github.com/eProsima/all-docs/blob/master/resources/Fast-CDR-v1_0_15.pdf)
+The API reference generated can also be found in [eProsima webpage](https://www.eprosima.com/images/PDFs/Fast_CDR.pdf)
 
 ### API Stability Policy [1.iv]
 
@@ -63,7 +63,7 @@ Current nightly results can be seen here for all supported platforms:
 
 * Linux [![Linux ci](http://jenkins.eprosima.com:8080/view/Nightly/job/nightly_fastcdr_master_linux/badge/icon?subject=%20%20%20Linux%20CI%20)](http://jenkins.eprosima.com:8080/view/Nightly/job/nightly_fastcdr_master_linux/)
 * Linux-aarch64 [![Linux arm64 ci](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_linux_aarch64/badge/icon?subject=%20%20%20Linux-aarch64%20CI%20)](http://jenkins.eprosima.com:8080/view/Nightly/job/nightly_fastcdr_master_linux_aarch64/)
-* Windows [![Windows ci](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_windows/label=windows-secure,platform=x64,toolset=v141/badge/icon?subject=%20%20%20%20Windows%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_windows/label=windows-secure,platform=x64,toolset=v141)
+* Windows [![Windows ci](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_windows/label=windows-secure,platform=x64,toolset=v142/badge/icon?subject=%20%20%20%20Windows%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_windows/label=windows-secure,platform=x64,toolset=v142)
 * Mac [![Mac ci](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_mac/badge/icon?subject=%20%20%20%20%20%20%20Mac%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_mac)
 
 ### Documentation Policy [2.v]
@@ -102,7 +102,7 @@ Current nightly results can be found here:
 
 * Linux [![Linux ci](http://jenkins.eprosima.com:8080/view/Nightly/job/nightly_fastcdr_master_linux/badge/icon?subject=%20%20%20Linux%20CI%20)](http://jenkins.eprosima.com:8080/view/Nightly/job/nightly_fastcdr_master_linux/)
 * Linux-aarch64 [![Linux arm64 ci](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_linux_aarch64/badge/icon?subject=%20%20%20Linux-aarch64%20CI%20)](http://jenkins.eprosima.com:8080/view/Nightly/job/nightly_fastcdr_master_linux_aarch64/)
-* Windows [![Windows ci](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_windows/label=windows-secure,platform=x64,toolset=v141/badge/icon?subject=%20%20%20%20Windows%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_windows/label=windows-secure,platform=x64,toolset=v141)
+* Windows [![Windows ci](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_windows/label=windows-secure,platform=x64,toolset=v142/badge/icon?subject=%20%20%20%20Windows%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_windows/label=windows-secure,platform=x64,toolset=v142)
 * Mac [![Mac ci](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_mac/badge/icon?subject=%20%20%20%20%20%20%20Mac%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_mac)
 
 ### Public API Testing [4.ii]
@@ -155,7 +155,7 @@ However, the tendency will be to homogenize the older source files to the code s
 
 * Linux [![Linux ci](http://jenkins.eprosima.com:8080/view/Nightly/job/nightly_fastcdr_master_linux/badge/icon?subject=%20%20%20Linux%20CI%20)](http://jenkins.eprosima.com:8080/view/Nightly/job/nightly_fastcdr_master_linux/)
 * Linux-aarch64 [![Linux arm64 ci](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_linux_aarch64/badge/icon?subject=%20%20%20Linux-aarch64%20CI%20)](http://jenkins.eprosima.com:8080/view/Nightly/job/nightly_fastcdr_master_linux_aarch64/)
-* Windows [![Windows ci](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_windows/label=windows-secure,platform=x64,toolset=v141/badge/icon?subject=%20%20%20%20Windows%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_windows/label=windows-secure,platform=x64,toolset=v141)
+* Windows [![Windows ci](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_windows/label=windows-secure,platform=x64,toolset=v142/badge/icon?subject=%20%20%20%20Windows%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_windows/label=windows-secure,platform=x64,toolset=v142)
 * Mac [![Mac ci](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_mac/badge/icon?subject=%20%20%20%20%20%20%20Mac%20CI%20)](http://jenkins.eprosima.com:8080/job/nightly_fastcdr_master_mac)
 
 More information about the supported platforms can be found in [PLATFORM_SUPPORT](PLATFORM_SUPPORT.md)
