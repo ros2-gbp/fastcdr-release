@@ -1,3 +1,26 @@
+## fastcdr (humble) - 1.0.29-1
+
+The packages in the `fastcdr` repository were released into the `humble` distro by running `/usr/bin/bloom-release -r humble fastcdr` on `Fri, 12 Dec 2025 08:47:15 -0000`
+
+The `fastcdr` package was released.
+
+Version of package(s) in repository `fastcdr`:
+
+- upstream repository: https://github.com/eProsima/Fast-CDR.git
+- release repository: https://github.com/ros2-gbp/fastcdr-release.git
+- rosdistro version: `1.0.24-2`
+- old version: `1.0.24-2`
+- new version: `1.0.29-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## fastcdr (rolling) - 2.3.3-1
 
 The packages in the `fastcdr` repository were released into the `rolling` distro by running `/usr/bin/bloom-release -r rolling fastcdr` on `Fri, 17 Oct 2025 11:49:06 -0000`
