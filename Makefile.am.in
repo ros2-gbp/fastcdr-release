@@ -12,14 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-find_package(GTest CONFIG REQUIRED)
-include(${PROJECT_SOURCE_DIR}/cmake/common/gtest.cmake)
+SUBDIRS = include src/cpp
 
-###############################################################################
-# Unit tests
-###############################################################################
-set(UNITTESTS_SOURCE SimpleTest.cpp ResizeTest.cpp)
-add_executable(UnitTests ${UNITTESTS_SOURCE})
-set_common_compile_options(UnitTests)
-target_link_libraries(UnitTests fastcdr GTest::gtest_main)
-add_gtest(UnitTests SOURCES ${UNITTESTS_SOURCE})
+@PROJECT_NAME@_licenciasdir = $(datadir)/@PROJECT_NAME@
+@PROJECT_NAME@_licencias_DATA = LICENSE

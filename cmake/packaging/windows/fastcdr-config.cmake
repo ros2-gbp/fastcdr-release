@@ -12,14 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-find_package(GTest CONFIG REQUIRED)
-include(${PROJECT_SOURCE_DIR}/cmake/common/gtest.cmake)
+if(MSVC_VERSION LESS_EQUAL 1900)
+    message(FATAL_ERROR "Visual Studio version ${MSVC_VERSION} is no longer supported")
+else()
+    if(CMAKE_CL_64)
+        include("${CMAKE_CURRENT_LIST_DIR}/../share/fastcdr-x64Win64VS2019/cmake/fastcdr-config.cmake")
+    else()
+        include("${CMAKE_CURRENT_LIST_DIR}/../share/fastcdr-i86Win32VS2019/cmake/fastcdr-config.cmake")
+    endif()
+endif()
 
-###############################################################################
-# Unit tests
-###############################################################################
-set(UNITTESTS_SOURCE SimpleTest.cpp ResizeTest.cpp)
-add_executable(UnitTests ${UNITTESTS_SOURCE})
-set_common_compile_options(UnitTests)
-target_link_libraries(UnitTests fastcdr GTest::gtest_main)
-add_gtest(UnitTests SOURCES ${UNITTESTS_SOURCE})

@@ -12,14 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-find_package(GTest CONFIG REQUIRED)
-include(${PROJECT_SOURCE_DIR}/cmake/common/gtest.cmake)
-
-###############################################################################
-# Unit tests
-###############################################################################
-set(UNITTESTS_SOURCE SimpleTest.cpp ResizeTest.cpp)
-add_executable(UnitTests ${UNITTESTS_SOURCE})
-set_common_compile_options(UnitTests)
-target_link_libraries(UnitTests fastcdr GTest::gtest_main)
-add_gtest(UnitTests SOURCES ${UNITTESTS_SOURCE})
+library_includedir = $(includedir)
+nobase_library_include_HEADERS = ${${PROJECT_NAME}_PUBLIC_HEADERS_AUTOTOOLS}
