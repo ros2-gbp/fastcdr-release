@@ -1,4 +1,4 @@
-From a56c55b22eab42f0d2a526f115ae24c3efe241ca Mon Sep 17 00:00:00 2001
+From 7df2a40c41f799920b793597350954260e2b0c48 Mon Sep 17 00:00:00 2001
 From: Shane Loretz <sloretz@openrobotics.org>
 Date: Mon, 21 Mar 2022 14:15:49 -0700
 Subject: [PATCH] Set APPEND_PROJECT_NAME_TO_INCLUDEDIR to ON
