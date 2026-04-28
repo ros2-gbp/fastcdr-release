@@ -361,5 +361,4 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/eProsima/Fast-CDR.git
-    version: 2.3.5
-    version_saved: :{auto}
+    version: :{auto}
