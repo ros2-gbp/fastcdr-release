@@ -1,3 +1,26 @@
+## fastcdr (kilted) - 2.3.6-1
+
+The packages in the `fastcdr` repository were released into the `kilted` distro by running `/usr/bin/bloom-release -r kilted fastcdr` on `Tue, 02 Jun 2026 09:55:12 -0000`
+
+The `fastcdr` package was released.
+
+Version of package(s) in repository `fastcdr`:
+
+- upstream repository: https://github.com/eProsima/Fast-CDR.git
+- release repository: https://github.com/ros2-gbp/fastcdr-release.git
+- rosdistro version: `2.3.5-1`
+- old version: `2.3.5-1`
+- new version: `2.3.6-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## fastcdr (lyrical) - 2.3.6-1
 
 The packages in the `fastcdr` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release -r lyrical fastcdr` on `Tue, 02 Jun 2026 09:52:28 -0000`
