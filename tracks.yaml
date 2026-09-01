@@ -249,8 +249,8 @@ tracks:
     - git-bloom-generate -y rosdynrpm --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc} --require-os fedora rhel
     devel_branch: 2.2.x
-    last_release: v2.2.7
-    last_version: 2.2.7
+    last_release: v2.2.8
+    last_version: 2.2.8
     name: fastcdr
     patches: null
     release_inc: '1'
