@@ -1,4 +1,4 @@
-From 65f814d2c879c78a6007f2b87ca84f11152b0c57 Mon Sep 17 00:00:00 2001
+From fc5c0a51207f1e4b8c8fed7a713da9461d3b6fc1 Mon Sep 17 00:00:00 2001
 From: Shane Loretz <sloretz@openrobotics.org>
 Date: Mon, 21 Mar 2022 14:16:01 -0700
 Subject: [PATCH] Set APPEND_PROJECT_NAME_TO_INCLUDEDIR to ON
@@ -8,10 +8,10 @@ Subject: [PATCH] Set APPEND_PROJECT_NAME_TO_INCLUDEDIR to ON
  1 file changed, 1 insertion(+)
 
 diff --git a/rpm/template.spec.em b/rpm/template.spec.em
-index b1217d0..6e4dc04 100644
+index 3464a0b..df9c22c 100644
 --- a/rpm/template.spec.em
 +++ b/rpm/template.spec.em
-@@ -51,6 +51,7 @@ mkdir -p .obj-%{_target_platform} && cd .obj-%{_target_platform}
+@@ -53,6 +53,7 @@ mkdir -p .obj-%{_target_platform} && cd .obj-%{_target_platform}
  %if !0%{?with_tests}
      -DBUILD_TESTING=OFF \
  %endif
